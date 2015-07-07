@@ -1,0 +1,19 @@
+Square Free Numbers
+Filename: sqfree
+Danny is afraid of perfect squares, because he once had bad luck on the 1st, 4th, 9th, 16th and 25th of a month. So, whenever he chooses a number for any purpose, he tries to choose numbers that are NOT perfect squares. Help Danny figure out how many numbers he can choose in a particular range.
+The Problem
+Given a low bound and a high bound, determine the number of integers within those bounds, inclusive, that are NOT perfect squares.
+The Input
+The first line of the input file will contain a number n (1 ≤ n ≤ 10000) indicating the number of ranges to be evaluated. The following n lines will each contain two integers, a (1 ≤ a ≤ 1000000) and b (a ≤ b ≤ 1000000).
+The Output
+For range [a, b], output on a single line the number of integers in the range that are not perfect squares.
+
+Sample Input
+3
+20 40
+1 3
+9999 10000
+Sample Output
+19
+2
+1
